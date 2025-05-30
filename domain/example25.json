@@ -314,8 +314,9 @@
       "name": {
         "type": "Tech Email"
       },
-      "prePath": "$.entiti$es[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
-      "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='fn')][3]",
+      "prePath": "asdf",
+      "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='fn')][199]",
+      "replacementPath": "asdfasfd",
       "method": "replacementValue",
       "reason": {
         "description": "Server policy"
