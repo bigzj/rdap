@@ -1,0 +1,227 @@
+{
+  "objectClassName": "domain",
+  "handle": "2138514_DOMAIN_ORG-LROR",
+  "ldhName": "mozak.org",
+  "links": [
+    {
+      "value": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+      "href": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+      "rel": "self",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.markmonitor.com/rdap/domain/mozak.org",
+      "rel": "related",
+      "href": "https://rdap.markmonitor.com/rdap/domain/mozak.org",
+      "type": "application/rdap+json"
+    }
+  ],
+  "status": [
+    "client delete prohibited",
+    "client transfer prohibited",
+    "client update prohibited",
+    "server delete prohibited",
+    "server transfer prohibited",
+    "server update prohibited"
+  ],
+  "redacted": [
+    {
+      "name": {
+        "description": "Registry Domain ID"
+      },
+      "prePath": "$.handle",
+      "pathLang": "jsonpath",
+      "method": "removal",
+      "reason": {
+        "description": "Confusing an error remover happy rdap tool.  https://datatracker.ietf.org/doc/html/rfc9537."
+      }
+    }
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "292",
+      "roles": [
+        "registrar"
+      ],
+      "publicIds": [
+        {
+          "type": "IANA Registrar ID",
+          "identifier": "292"
+        }
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "MarkMonitor Inc."
+          ]
+        ]
+      ],
+      "links": [
+        {
+          "value": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+          "href": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+          "rel": "about",
+          "type": "application/rdap+json"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "2138514_DOMAIN_COM-VRSN",
+          "roles": [
+            "abuse"
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                ""
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.2086851750"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "abusecomplaints@markmonitor.com"
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "1997-09-15T04:00:00Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2028-09-14T04:00:00Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2019-09-09T15:39:04Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2025-02-18T20:34:24Z"
+    }
+  ],
+  "secureDNS": {
+    "delegationSigned": false
+  },
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS1.mozak.org"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS2.mozak.org"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS3.mozak.org"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS4.mozak.org"
+    }
+  ],
+  "rdapConformance": [
+    "redacted",
+    "rdap_level_0",
+    "rdap_level_1",
+    "icann_rdap_response_profile_0",
+    "icann_rdap_response_profile_1",
+    "icann_rdap_technical_implementation_guide_0",
+    "icann_rdap_technical_implementation_guide_1"
+  ],
+  "notices": [
+    {
+      "title": "Terms of Use",
+      "description": [
+        "Service subject to Terms of Use."
+      ],
+      "links": [
+        {
+          "value": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+          "rel": "self",
+          "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "Status Codes",
+      "description": [
+        "For more information on domain status codes, please visit https://icann.org/epp"
+      ],
+      "links": [
+        {
+          "value": "https://icann.org/epp",
+          "rel": "glossary",
+          "href": "https://icann.org/epp",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "RDDS Inaccuracy Complaint Form",
+      "description": [
+        "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+      ],
+      "links": [
+        {
+          "value": "https://icann.org/wicf",
+          "rel": "help",
+          "href": "https://icann.org/wicf",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "RDAP Terms of Service",
+      "description": [
+        "The RDAP service (the Service) offered by Registry Services LLC, or our designated representatives (GoDaddy Registry), is provided for informational purposes only and is designed to assist a user (you) to look up certain information related to the registration records of existing domain names.",
+        "By executing a query, in any manner whatsoever, you agree to abide by these Terms of Service."
+      ],
+      "links": [
+        {
+          "rel": "terms-of-service",
+          "value": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+          "href": "https://ts-wire-mock.icann.org/rdap/v2/code_47700/domain/mozak.org",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
